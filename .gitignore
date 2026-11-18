@@ -1,0 +1,14 @@
+# Entornos virtuales y caché de Python
+venv/
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+.DS_Store
+
+# Variables de entorno y secretos (NUNCA subir el .env real)
+.env
+
+# Modelos pesados descargados manualmente
+*.gguf
+*.bin
